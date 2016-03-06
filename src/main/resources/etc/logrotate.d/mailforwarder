@@ -1,0 +1,9 @@
+/var/log/mailforwarder/mailforwarder.log {
+    weekly
+    copytruncate
+    missingok
+    rotate 14
+    compress
+    delaycompress
+    notifempty
+}
